@@ -1,3 +1,12 @@
+/*
+ * Written by: Kyle Limbaga, Sean Prendergast and Dawson Tocarchick
+ * Assignment: Milestone 2
+ * The purpose of this program is to have the MSP430G2553 capable
+ * of changing the duty cycle of a fan by transmitting a PWM signal.
+ * The duty cycle will change based on the value the user enters
+ * for the desired temperature on Realterm as UART will be utilized.
+ */
+
 #include <msp430.h>
  unsigned int value=0;
  unsigned int desired_temp=40;
